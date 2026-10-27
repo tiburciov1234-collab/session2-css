@@ -1,23 +1,90 @@
+
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
 }
-
-header,footer {
-    background-color: #203d64;
-    color:white;
+section {
+    padding: 30px;
+}
+h2 {
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+img {
+    width: 100%;
+    height: 300px;
+}
+header, footer {
+    background-color: #1a3a6b;
+    color: white;
     text-align: center;
     padding: 20px;
 }
-img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-header nav a{
+header nav a {
     display: block;
-    color:white;
+    color: white;
     padding: 8px;
 }
-header nav a:first-child{
-    background-color: #e7f1fd;
+header nav a:first-child {
+    background-color: #4a7fc1;
+}
+header nav a:hover {
+    color: lightblue;
+}
+#inicio {
+    background-color: #e6f0fa;
+}
+#inicio h2 {
+    color: #1a3a6b;
+    border-bottom: 2px solid #4a7fc1;
+}
+#sobre-mi {
+    background-color: white;
+}
+#sobre-mi h2 {
+    color: #1a3a6b;
+    border-bottom: 2px solid #4a7fc1;
+}
+#aficiones {
+    background-color: #fdeeee;
+}
+#aficiones h2 {
+    color: #8b0000;
+    border-bottom: 2px solid #8b0000;
+}
+#aficiones h3 {
+    color: #8b0000;
+    font-size: 20px;
+}
+#enlaces {
+    background-color: #eaf6ea;
+}
+#enlaces h2 {
+    color: #1b5e20;
+    border-bottom: 2px solid #1b5e20;
+}
+#enlaces a {
+    color: #2e7d32;
+    font-weight: bold;
+}
+.caja-aficion {
+    background-color: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.caja-enlace {
+    background-color: white;
+    border: 1px solid #2e7d32;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.caja-aficion p, .caja-enlace p {
+    color: black;
 }
