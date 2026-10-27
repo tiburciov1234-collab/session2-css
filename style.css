@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+.cabecera{
+    background-color: #0653ac;
+    padding: 20px;
+}
+h1{
+    color: white;
+}
+sub{
+    color: white;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.sobre{
+    background-color: #ebf8ff;
+    padding: 20px;
+}
