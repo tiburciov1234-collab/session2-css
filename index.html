@@ -3,79 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi página personal</title>
     <link rel="stylesheet" href="style.css">
-<main>
 </head>
 <body>
-    <div width="1024px">
-    <section class="cabecera">
-    <header><h1>Mi página personal.</h1></header>
-        <p><sub>Aprender, crear y disfrutar</sub></p>
-        <button>Inicio</button>
-        <nav>  
-           <p><a href="#sobre-mi">Sobre Mi</a></p>
-           <p><a href="#mis-aficiones">Mis Aficiones</a></p>
-           <p><a href="#enlaces-recomendados">Enlaces recomendados</a></p>  
+<header>
+    <h1>Mi página personal</h1>
+        <p>Aprender, crear y disfrutar</p>
+        <nav>
+           <a href="#inicio">Inicio</a>
+           <a href="#sobre-mi">Sobre mí</a>
+           <a href="#aficiones">Mis aficiones</a>
+           <a href="#enlaces">Enlaces recomendados</a>
         </nav>
-        <img src="img/muntanya-practica-css.jpg" alt="imagen de montaña">
-        </section>
-<section class="sobre">
+</header>
+        <img src="img/muntanya-practica-css.jpg" alt="Imagen panorámica de una montaña">
+<main>
+<section id="inicio">
         <h2>¡Hola!</h2>
-             <p>Me llamo Alex y esta es mi página personal. Me gusta la tecnología, la montaña y aprender cosas nuevas. En esta web encontraras un poco más sobre mí, mis aficiones y algunos enlaces que me resulten interesantes.</p>
+             <p>Me llamo Alex y esta es mi página personal. Me gusta la tecnología, la montaña y aprender cosas nuevas. En esta web encontrarás un poco más sobre mí, mis aficiones y algunos enlaces que me resultan interesantes.</p>
 </section>
-    <section id="mis-aficiones">
+    <section id="sobre-mi">
         <h2>Sobre mí</h2>
-    <p>Soy un estudiante de desarrolo web. Me interesa el diseño, la programacion y todo lo relacionado con la tecnología.</p>
-        <p>Me gusta aprender de forma práctica y crear pequeños proyectos</p>
+    <p>Soy estudiante de desarrollo web. Me interesa el diseño, la programación y todo lo relacionado con la tecnología.</p>
+        <p>Me gusta aprender de forma práctica y crear pequeños proyectos.</p>
 </section>
-<section id="enlaces-recomendados">
-   <div>
-        <h3>Enlaces recomendados</h3>
-    <div>
+<section id="aficiones">
+        <h2>Mis aficiones</h2>
+    <div class="caja-aficion">
         <h3>Senderismo y montaña</h3>
-        <p>Me encanta salir a la naturaleza, descubrir nuevos lugares y disfrutar de las vistas</p>
+        <p>Me encanta salir a la naturaleza, descubrir nuevos lugares y disfrutar de las vistas.</p>
     </div>
-<div>
+<div class="caja-aficion">
     <h3>Fotografía</h3>
-    <p>Me gusta hacer fotos de paisajes y de mis viajes</p>
+    <p>Me gusta hacer fotos de paisajes y de mis viajes.</p>
 </div>
 
-<div>
+<div class="caja-aficion">
     <h3>Música</h3>
-        <p>Escucho diferentes estilos de música, sobre todo rock y electrónica</p>
+        <p>Escucho diferentes estilos de música, sobre todo rock y electrónica.</p>
 </div>
 
-<div>
+<div class="caja-aficion">
     <h3>Leer libros de tecnología</h3>
-        <p>Siempre estoy buscando libros y artículos para aprender cosas nuevas</p>
+        <p>Siempre estoy buscando libros y artículos para aprender cosas nuevas.</p>
 </div>
 
-<div>
+<div class="caja-aficion">
     <h3>Viajar</h3>
-        <p>Me encanta conocer nuevos lugares, otras culturas y probar comidas diferentes.</p>    
+        <p>Me encanta conocer nuevos lugares, otras culturas y probar comidas diferentes.</p>
 </div>
-
-<div>
-    <h4>Enlaces recomendados</h4>
-<div>   <h4><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a></h4>   </div>
-    <p>Documentacion de HTML, CSS y JavaScript</p>
-<div>
-    <h4><a href="https://www.w3schools.com/" target="_blank">W3CShools</a></h4>
-        <p>Tutoriales y ejemplos de desarollo web.</p>
-</div>
-<div>
-    <h4><a href="https://unsplash.com/" target="_blank">Unsplash</a></h4> 
-    <p>Imágenes gratuitas de alta calidad.</p>  
-</div>
-
-
-
-</div>
-</div>
-
-
 </section>
-</body>
+
+<section id="enlaces">
+    <h2>Enlaces recomendados</h2>
+<div class="caja-enlace">
+    <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a>
+    <p>Documentación de HTML, CSS y JavaScript.</p>
+</div>
+
+<div class="caja-enlace">
+    <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+        <p>Tutoriales y ejemplos de desarrollo web.</p>
+</div>
+
+<div class="caja-enlace">
+    <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        <p>Imágenes gratuitas de gran calidad.</p>
+</div>
+</section>
 </main>
+
+<footer>© 2024 Alex. Todos los derechos reservados.</footer>
+
+</body>
 </html>
