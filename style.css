@@ -29,12 +29,14 @@ header nav a {
     margin: 0 auto;
     color: white;
     padding: 8px;
+    text-decoration: none;
 }
-header nav .activo {
-    background-color: #4a7fc1;
-    border: 1px solid #7ba7de;
+header nav a:first-child {
+    width: 140px;
+    background-color: #3a7bcf;
     border-radius: 6px;
     font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 #inicio {
     background-color: #e6f0fa;
