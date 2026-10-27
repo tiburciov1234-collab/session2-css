@@ -1,161 +1,91 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #202b38;
-    background-color: #f5f7fa;
-}
-
-header,
-footer {
-    background-color: #1a3a6b;
-    color: white;
-    text-align: center;
-    padding: 24px;
-}
-
-header h1 {
     margin: 0;
 }
-
-header p {
-    margin: 6px 0 18px;
-}
-
-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 14px;
-    border-radius: 6px;
-}
-
-header nav a:hover,
-header nav a:focus-visible,
-header nav a:first-child {
-    background-color: #4a7fc1;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
 section {
-    padding: 30px clamp(20px, 6vw, 80px);
+    padding: 30px;
 }
-
 h2 {
     font-size: 28px;
     padding-bottom: 8px;
-    margin-top: 0;
 }
-
 p {
     font-size: 16px;
     margin: 10px 0;
 }
-
+img {
+    width: 100%;
+    height: 300px;
+}
+header, footer {
+    background-color: #1a3a6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header nav a {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    color: white;
+    padding: 8px;
+}
+header nav .activo {
+    background-color: #4a7fc1;
+    border: 1px solid #7ba7de;
+    border-radius: 6px;
+    font-weight: bold;
+}
 #inicio {
     background-color: #e6f0fa;
 }
-
-#inicio h2,
+#inicio h2 {
+    color: #1a3a6b;
+    border-bottom: 2px solid #4a7fc1;
+}
+#sobre-mi {
+    background-color: white;
+}
 #sobre-mi h2 {
     color: #1a3a6b;
     border-bottom: 2px solid #4a7fc1;
 }
-
-#sobre-mi {
-    background-color: white;
-}
-
 #aficiones {
     background-color: #fdeeee;
 }
-
-#aficiones h2,
-#aficiones h3 {
-    color: #8b0000;
-}
-
 #aficiones h2 {
+    color: #8b0000;
     border-bottom: 2px solid #8b0000;
 }
-
 #aficiones h3 {
+    color: #8b0000;
     font-size: 20px;
-    margin-top: 0;
 }
-
 #enlaces {
     background-color: #eaf6ea;
 }
-
 #enlaces h2 {
     color: #1b5e20;
     border-bottom: 2px solid #1b5e20;
 }
-
 #enlaces a {
     color: #2e7d32;
     font-weight: bold;
 }
-
-.caja-aficion,
+.caja-aficion {
+    background-color: white;
+    border: 1px solid #8b0000;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
 .caja-enlace {
     background-color: white;
-    border-radius: 10px;
-    padding: 16px;
-}
-
-.caja-aficion {
-    border: 1px solid #8b0000;
-}
-
-.caja-enlace {
     border: 1px solid #2e7d32;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
 }
-
-.caja-aficion p,
-.caja-enlace p {
-    color: #202b38;
-}
-
-#aficiones,
-#enlaces {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
-    gap: 16px;
-}
-
-#aficiones h2,
-#enlaces h2 {
-    grid-column: 1 / -1;
-}
-
-footer {
-    padding: 18px;
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 20px 14px;
-    }
-
-    img {
-        height: 220px;
-    }
+.caja-aficion p, .caja-enlace p {
+    color: black;
 }
